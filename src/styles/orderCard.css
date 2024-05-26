@@ -1,0 +1,64 @@
+.orders {
+    min-width: fit-content;
+    margin: 1rem 2rem;
+    display:block;
+    width: 100%;
+}
+
+.tableOrderCard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 3fr;
+    gap: 0.5rem;
+    grid-template-areas: 
+        "line1left line1left line1right"
+        "line2left line2left line2right"
+        "line3left line3 line3right"
+}
+
+.orderReceived1 {
+    grid-area: line1left;
+    text-transform: uppercase;
+    color: darkgray;
+}
+
+.referance1 {
+    grid-area: line2left;
+    text-transform: uppercase;
+    color: darkgray;
+}
+
+.status1 {
+    grid-area: line3left;
+    text-transform: uppercase;
+    color: darkgray;
+    font-size: 0.7rem;
+}
+
+.deliveryDate1 {
+    grid-area: line3;
+    /* justify-items: end; */
+    text-transform: uppercase;
+    color: darkgray;
+    font-size: 0.7rem;
+}
+
+.amountItems1 {
+    grid-area: line1right;
+}
+
+.totalOrder1 {
+    grid-area: line2right;
+    font-weight: 700;
+}
+
+.orderOverview1  {
+    grid-area: line3right;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: blue;
+    font-weight: 600;
+}

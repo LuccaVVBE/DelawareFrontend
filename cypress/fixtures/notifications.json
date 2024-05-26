@@ -1,0 +1,85 @@
+{
+    "count": 10,
+    "data": [
+        {
+            "id": "clfr92lg50004q5u8b7db19cy",
+            "read": true,
+            "title": "Status Update",
+            "description": "Your order with order id 1 has been processed",
+            "timestamp": "2023-03-27T19:56:45.461Z",
+            "companyId": "1"
+        },
+        {
+            "id": "clfr92lga0006q5u8w5twvw30",
+            "read": false,
+            "title": "Status Update",
+            "description": "Your order with order id 1 has been shipped",
+            "timestamp": "2022-03-27T19:56:45.466Z",
+            "companyId": "1"
+        },
+        {
+            "id": "clfr92liz000cq5u8ibsg76yy",
+            "read": true,
+            "title": "Status Update",
+            "description": "Your order with order id 2 has been processed",
+            "timestamp": "2023-03-27T19:56:45.563Z",
+            "companyId": "1"
+        },
+        {
+            "id": "clfr92lj4000eq5u85hu8etkh",
+            "read": false,
+            "title": "Status Update",
+            "description": "Your order with order id 2 has been shipped",
+            "timestamp": "2023-03-27T19:56:45.568Z",
+            "companyId": "1"
+        },
+        {
+            "id": "clfr92lkd000kq5u8zetuktxo",
+            "read": true,
+            "title": "Status Update",
+            "description": "Your order with order id 3 has been processed",
+            "timestamp": "2023-03-27T19:56:45.613Z",
+            "companyId": "1"
+        },
+        {
+            "id": "clfr92lkh000mq5u8tbyitwqh",
+            "read": false,
+            "title": "Status Update",
+            "description": "Your order with order id 3 has been shipped",
+            "timestamp": "2023-03-27T19:56:45.617Z",
+            "companyId": "1"
+        },
+        {
+            "id": "clfr92llp000sq5u8nivfeuh8",
+            "read": true,
+            "title": "Status Update",
+            "description": "Your order with order id 4 has been processed",
+            "timestamp": "2023-03-27T19:56:45.661Z",
+            "companyId": "1"
+        },
+        {
+            "id": "clfr92llu000uq5u8tvaklw7k",
+            "read": false,
+            "title": "Status Update",
+            "description": "Your order with order id 4 has been shipped",
+            "timestamp": "2023-03-27T19:56:45.667Z",
+            "companyId": "1"
+        },
+        {
+            "id": "clfr92lml0010q5u8gpg333dx",
+            "read": true,
+            "title": "Status Update",
+            "description": "Your order with order id 5 has been processed",
+            "timestamp": "2023-03-27T19:56:45.693Z",
+            "companyId": "1"
+        },
+        {
+            "id": "clfr92lmq0012q5u8mhm0xzc2",
+            "read": false,
+            "title": "Status Update",
+            "description": "Your order with order id 5 has been shipped",
+            "timestamp": "2023-03-27T19:56:45.698Z",
+            "companyId": "1"
+        }
+    ]
+}

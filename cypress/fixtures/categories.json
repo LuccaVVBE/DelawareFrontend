@@ -1,0 +1,22 @@
+[
+    {
+        "categoryId": "1",
+        "categoryName": "Electronics"
+    },
+    {
+        "categoryId": "2",
+        "categoryName": "Clothing"
+    },
+    {
+        "categoryId": "3",
+        "categoryName": "Home & Kitchen"
+    },
+    {
+        "categoryId": "4",
+        "categoryName": "Beauty & Personal Care"
+    },
+    {
+        "categoryId": "5",
+        "categoryName": "Sports & Outdoors"
+    }
+]

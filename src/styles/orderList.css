@@ -1,0 +1,17 @@
+.orderList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.titel {
+    display : block;
+    width: 100%;
+    margin: 2rem;
+    font-weight: 300;
+    font-size: 40px;
+    color: black;
+}

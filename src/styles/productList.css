@@ -1,0 +1,11 @@
+.productList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.productList > div {
+    margin: 1rem;
+    /* flex: 1; */
+}

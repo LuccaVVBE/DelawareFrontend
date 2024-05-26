@@ -1,0 +1,111 @@
+/* Header */
+header {
+    height: 115px;
+    color: white;
+}
+header .top {
+    background-color: #ec4842;
+}
+header .bottom {
+    background-color: #e0433e;
+}
+
+/* Footer */
+footer {
+    height: 50px;
+    color: black;
+}
+footer .top {
+    background-color: #f8fafb;
+}
+footer .bottom {
+    background-color: #f0f2f3;
+}
+
+/* Body */
+body {
+    background-color: white;
+    color: black;
+}
+/* body h1 {
+    color: black;
+} */
+body h2 {
+    color: darkgray;
+}
+
+/* Sides */
+.sides {
+    background-color: white;
+}
+.sides[enabled='false'] {
+    display: none;
+}
+
+/* Buttons */
+button.primary {
+    color: white;
+    background-color: #ec4842;
+}
+button.secondary {
+    color: white;
+    background-color: #5e27cd;
+}
+
+/* Icons */
+.icon-static {
+    color: green;
+}
+.icon-static[data-type='pdf'] {
+    color: red;
+}
+.icon-radio[data-state='active'] {
+    color: red;
+}
+.icon-radio[data-state='normal'] {
+    color: black;
+}
+.icon-carousel[data-state='active'] {
+    color: red;
+}
+.icon-carousel[data-state='normal'] {
+    color: white;
+}
+a .icon-link {
+    color: blue;
+}
+.icon-pdf {
+    color: red;
+}
+
+/* Tags */
+.tag-promo {
+    background-color: blue;
+    color: white;
+}
+.tag-new {
+    background-color: red;
+    color: yellow;
+}
+
+/* Cart */
+.cart {
+    border-color: #edf1f3;
+}
+.cart .side {
+    background-color: #f8fafb;
+}
+.cart .info {
+    background-color: #f8fafb;
+}
+.cart .info .icon-color {
+    color: #32b2e3;
+}
+.cart .success {
+    background-color: #2fcc71;
+    color: #fff;
+}
+.cart .error {
+    background-color: red;
+    color: #fff;
+}

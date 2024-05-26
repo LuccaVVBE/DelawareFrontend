@@ -1,0 +1,275 @@
+.cart {
+    width: 80%;
+    margin: auto;
+}
+
+.cartItems {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 1rem;
+    min-height: 20%;
+}
+
+.cartItem {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.product-image {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product {
+    width: 20%;
+    margin-left: 1rem;
+    border: none;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: fit-content;
+    margin: 0 1rem 0 auto;
+}
+
+.amountInCart {
+    display: flex;
+    align-items: center;
+}
+
+.amountInCart button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.amountInCart span {
+    margin: 0 0.5rem;
+}
+
+.price span {
+    font-weight: bold;
+}
+
+.features {
+    width: 40%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    background-color: #f8fafa;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.features h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.features h5 {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.features p {
+    margin: 0.5rem 0;
+}
+
+.shippingAndTotal {
+    float: right;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: 'Delivery Total';
+
+    min-height: 20%;
+    margin-top: 1rem;
+}
+
+.shipping {
+    grid-area: Delivery;
+}
+
+.total {
+    grid-area: Total;
+}
+
+.shipping,
+.discount {
+    margin-right: 2%;
+    margin-bottom: 3%;
+    background-color: #f8fafa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.shipping h4,
+.discount h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.shipping p,
+.discount p {
+    margin: 0.5rem 0;
+}
+
+.total {
+    width: 90%;
+    background-color: #f8fafa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+.total table {
+    width: 100%;
+}
+
+.total td:last-child {
+    text-align: right;
+}
+
+.compHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 0 3% 0;
+}
+
+.compHeader h2 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.compHeader button {
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+    .cart {
+        width: 100%;
+    }
+
+    .cartItems {
+        min-height: auto;
+        margin-right: 0;
+    }
+
+    .features {
+        width: 100%;
+        float: none;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .shippingAndTotal {
+        float: none;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            'Delivery'
+            'Total';
+    }
+    .shipping {
+        margin-right: 0;
+    }
+    .total {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* For screens between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .features {
+        width: 95%;
+        float: none;
+        margin-top: 1rem;
+    }
+
+    .shippingAndTotal {
+        float: none;
+        width: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 'Delivery Total';
+    }
+
+    .total {
+        margin-left: 1rem;
+    }
+}
+
+/* For screens larger than 1023px */
+@media (min-width: 1024px) {
+    .cart {
+        max-width: 80%;
+    }
+
+    .total {
+        margin-left: 0;
+        width: 95%;
+        margin-bottom: 2%;
+    }
+
+    .features {
+        width: 45%;
+        float: left;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .shippingAndTotal {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        width: 40%;
+        grid-template-areas: 'Delivery Total';
+    }
+}
+
+.feature {
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.feature:hover {
+    color: red;
+}
+
+.feature > span:nth-child(1) {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,46 @@
+.checkout {
+    width: 80%;
+    margin: auto;
+}
+
+.checkoutpage {
+    position: absolute;
+    right: 0;
+    margin-top: 1rem;
+
+    margin-right: 10%;
+    color: darkgray;
+}
+
+.bar {
+    width: 90%;
+    margin: auto 2rem;
+}
+
+.checkoutpage a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.checkoutpage a:hover {
+    color: #ec4842;
+    text-decoration: none;
+}
+
+.checkout legend {
+    margin-bottom: 4rem;
+}
+
+button {
+    border-radius: 5px;
+}
+
+input {
+    accent-color: #ec4842 !important;
+}
+
+.linkToOrderPage {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #ec4842;
+}

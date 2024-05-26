@@ -1,0 +1,55 @@
+
+.windowEdit {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10rem;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btnEditOrder {
+    
+    display: inline;
+}
+
+.editTitel {
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 35px;
+    color: black;
+}
+
+.formEditOrder > *{
+    display: block;
+}
+
+.formEditOrder > :last-child{
+    margin-bottom: 2rem;
+}
+
+.formEditOrder > label {
+    margin-top: 1rem;
+}
+
+.formEditOrder > input {
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnSave {
+    display: inline-block;
+}
+
+.btnClose {
+    display: inline-block;
+    justify-content: end;
+}
+

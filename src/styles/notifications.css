@@ -1,0 +1,67 @@
+.notifications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0;
+    list-style-type: none;
+    margin: 4rem;
+    /* margin: 0 auto; */
+}
+
+.notification {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notification.unread {
+    background-color: #e0eafc;
+}
+
+.notification.read {
+    background-color: #f1f1f1;
+}
+
+.notification h3 {
+    width: 150px;
+    margin-bottom: 8px;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.notification p {
+    margin: 0;
+}
+
+.notification .timestamp {
+    width: 150px;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #555;
+    margin-top: 4px;
+    margin-right: 20px;
+}
+
+.markAsRead {
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ec4842;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.navigateToOrder {
+    margin-right: 1rem;
+    color: #ec4842;
+    text-decoration-line: none;
+    font-size: 0.9rem;
+}

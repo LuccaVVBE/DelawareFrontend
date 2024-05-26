@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "items": [
+        {
+            "orderId": "5",
+            "packingType": "Regular cardboard",
+            "orderDate": "2023-03-29T15:26:12.055Z",
+            "addressId": "1",
+            "companyId": "1",
+            "orderItems": [
+                {
+                    "orderItemId": "clftuad07000yvljklnyqbszm",
+                    "quantity": 1,
+                    "boxId": null,
+                    "orderId": "5",
+                    "productId": "EL002"
+                }
+            ],
+            "address": {
+                "id": "1",
+                "name": "Schoonmeersen",
+                "street": "Valentijn Vaerwyckweg",
+                "number": "1",
+                "city": "Ghent",
+                "zipCode": 9000,
+                "country": "Belgium",
+                "companyId": "1"
+            },
+            "trackAndTrace": {
+                "id": "clftuad07000wvljkwqthrmtg",
+                "number": "010511234567894",
+                "verificationCode": "2565",
+                "status": "Received",
+                "carrierId": "1",
+                "orderId": "5"
+            }
+        }
+    ]
+}

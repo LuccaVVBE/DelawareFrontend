@@ -1,0 +1,23 @@
+{
+    "id": "CL003",
+    "stock": 15,
+    "eta": 10,
+    "linkToImg": null,
+    "productDescription": {
+        "languageId": "en",
+        "productName": "Adidas Women's Ultraboost Running Shoes",
+        "productShortDescription": "Comfortable and stylish running shoes for women",
+        "productLongDescription": "The Adidas Women's Ultraboost Running Shoes are designed to provide comfort and support for your feet during your runs. They feature a Primeknit upper, a responsive Boost midsole, and a flexible outsole.",
+        "productId": "CL003"
+    },
+    "productPrice": [
+        {
+            "currencyId": "EUR",
+            "unitOfMeasure": "EAX",
+            "price": 99.99,
+            "syncDateTime": "2023-03-12T17:26:18.974Z",
+            "productId": "CL003"
+        }
+    ],
+    "category": { "categoryId": "2", "categoryName": "Clothing" }
+}

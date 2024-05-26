@@ -1,0 +1,168 @@
+.order {
+    min-width: fit-content;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.titelOrderDetail {
+    display : inline;
+    width: 100%;
+    margin: 2rem;
+    font-weight: 300;
+    font-size: 45px;
+    color: black;
+}
+
+.tableOrder {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    display: grid;
+    margin: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1em;
+    grid-gap: 2rem;
+}
+
+.ordered {
+    grid-column: 1 / 2;
+    text-transform: uppercase;
+    color: darkgray;
+}
+
+.referance {
+    grid-column: 1 / 2;
+    text-transform: uppercase;
+    color: darkgray;
+}
+
+.amountItems2 {
+    grid-column: 1 / 2;
+    text-transform: uppercase;
+}
+
+.orderDescription {
+    grid-column: 1 / 2;
+    text-transform: uppercase;
+    color: darkgray;
+}
+
+.status {
+    grid-column: 2 / 3;
+    grid-row-start: 1;
+    text-transform: uppercase;
+    color: darkgray;
+}
+
+.deliveryDate {
+    grid-column: 2 / 3;
+    grid-row-start: 2;
+    text-transform: uppercase;
+    color: darkgray;
+}
+
+.orderAdres {
+    grid-column: 2 / 3;
+    grid-row-start: 3;
+}
+
+.invoiceStatus {
+    grid-column: 2 / 3;
+    grid-row-start: 3;
+    text-transform: uppercase;
+    color: darkgray;
+}
+
+.paymentTerms  {
+    grid-column: 2 / 3;
+    grid-row-start: 5;
+    text-transform: uppercase;
+    color: darkgray;
+}
+
+.totalOrder {
+    grid-column: 3;
+    grid-row-start: 1;
+}
+
+.tableWithPrice * tr td{
+    padding: 0 7px 7px 0;
+}
+
+.subtotalOrder {
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.2 rem;
+}
+
+.vatAndShippingOrder {
+    text-transform: none;
+    color: darkgray;
+    font-size: 1 rem;
+}
+
+
+.totalInOrder {
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.5 rem;
+}
+
+.orderItems {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 3rem;
+    min-height: 20%;
+}
+
+.orderItem {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+
+.product-image-in-order {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.product-image-in-order img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.productOrder {
+    width: 20%;
+    margin-left: 1rem;
+    border: none;
+}
+
+.priceProductOrder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: fit-content;
+    margin: 0 1rem 0 auto;
+}
+
+/* .amountInOrder {
+    display: flex;
+    align-items: flex-end;
+} */
+
+
+
+/* .order > div > img {
+    height: 20rem;
+    margin-right: 4rem;
+} */

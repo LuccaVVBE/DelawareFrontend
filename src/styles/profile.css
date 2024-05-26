@@ -1,0 +1,45 @@
+.profile{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.personal{
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 1rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.personalText{
+    display:flex;
+    flex-direction: column;
+}
+
+.personal img{
+    max-width: 25%;
+    
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .personal{
+        flex-direction: column;
+    }
+    .personal img{
+        align-self: center;
+    }
+}
+
+/*Hiding the image on mobile*/
+
+@media screen and (max-width: 500px) {
+    .personal img{
+        display:none;
+    }
+}
+    
